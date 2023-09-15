@@ -4,20 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <!-- Estilo -->
-    <link rel="stylesheet" href="/style/style.css" />
     <!-- Fuente -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto+Mono:ital,wght@0,700;1,400&family=Roboto:wght@400;700;900&display=swap"
       rel="stylesheet"
     />
+    <!-- Estilo -->
+    <link rel="stylesheet" href="/style/style.css" />
   </head>
   <body>
+    <span class="material-symbols-outlined go-top-button">
+      keyboard_arrow_up
+    </span>
     <header>
       <div class="container">
         <nav>
           <ul class="nav-list">
-            <li><a href="/index.html" class="nav-list__link">Sobre mí</a></li>
+            <li>
+              <a href="/index.html" class="nav-list__link">Sobre mí</a>
+            </li>
             <li>
               <a href="proyectos.html" class="nav-list__link--disable"
                 >Proyectos</a
@@ -26,7 +35,6 @@
             <li>
               <a href="experiencia.html" class="nav-list__link">Exp. laboral</a>
             </li>
-
             <li>
               <a href="certificaciones.html" class="nav-list__link"
                 >Certificaciones</a
@@ -36,13 +44,186 @@
               <a href="contactame.html" class="nav-list__link">Contactame</a>
             </li>
             <li>
-              <form action="">
-                <button class="button-cv nav-list__link">Curriculum</button>
-              </form>
+              <a
+                class="button-cv nav-list__link"
+                href="/img/CV-Dev-09-23.pdf"
+                download="Cv Juan Sincich"
+              >
+                Curriculum</a
+              >
             </li>
           </ul>
         </nav>
       </div>
     </header>
+    <main id="proyectos-main">
+      <div class="container">
+        <p class="proyectos-title">Desarrollo Web</p>
+        <div class="grid">
+          <div class="card">
+            <figure class="proyecto-card__img">
+              <img
+                class="proyectos-card-img"
+                src="/img/proyectoPorfolio1920.png"
+              />
+            </figure>
+
+            <p class="card-title">Porfolio</p>
+            <p class="card-description">
+              Sitio personal donde comparto proyectos propios.
+            </p>
+            <div class="proyectos-tools">
+              <img
+                class="proyectos-tools-icon"
+                src="/img/html5-original.svg"
+                alt=""
+              />
+              <img
+                class="proyectos-tools-icon"
+                src="/img/css3-plain-wordmark.svg"
+                alt=""
+              />
+              <img
+                class="proyectos-tools-icon"
+                src="/img/javascript-original.svg"
+                alt=""
+              />
+              <img
+                class="proyectos-tools-icon"
+                src="/img/figma-original.svg"
+                alt=""
+              />
+              <img
+                class="proyectos-tools-icon"
+                src="/img/git-original-wordmark.svg"
+                alt=""
+              />
+              <img
+                class="proyectos-tools-icon"
+                src="/img/github-original.svg"
+                alt=""
+              />
+            </div>
+            <a class="proyectos-card-btn" href="#">Ir al sitio</a>
+          </div>
+          <div class="card">
+            <figure>
+              <img
+                class="proyectos-card-img"
+                src="/img/MecanicaDeBicicletas1920.png"
+              />
+            </figure>
+
+            <p class="card-title">CoderHouse proyecto final</p>
+            <p class="card-description">
+              Entrega final del curso de Desarrollo Web realizado en la
+              plataforma "CoderHouse".
+            </p>
+            <div class="proyectos-tools">
+              <img
+                class="proyectos-tools-icon"
+                src="/img/html5-original.svg"
+                alt=""
+              />
+              <img
+                class="proyectos-tools-icon"
+                src="/img/css3-plain-wordmark.svg"
+                alt=""
+              />
+              <img
+                class="proyectos-tools-icon"
+                src="/img/sass-original.svg"
+                alt=""
+              />
+              <img
+                class="proyectos-tools-icon"
+                src="/img/bootstrap-plain.svg"
+                alt=""
+              />
+              <img
+                class="proyectos-tools-icon"
+                src="/img/git-original-wordmark.svg"
+                alt=""
+              />
+              <img
+                class="proyectos-tools-icon"
+                src="/img/github-original.svg"
+                alt=""
+              />
+              <img class="proyectos-tools-icon" src="" alt="" />
+            </div>
+            <a class="proyectos-card-btn" href="#">Ir al sitio</a>
+          </div>
+        </div>
+        <p class="proyectos-title ux">Diseño Ux-Ui</p>
+        <div class="grid">
+          <div class="card">
+            <figure>
+              <img class="proyectos-card-img" src="/img/Bna1920.png" />
+            </figure>
+
+            <p class="card-title">CoderHouse Proyecto final</p>
+            <p class="card-description">
+              Entrega final del curso de Diseño UX-UI avanzado realizado en la
+              plataforma "CoderHouse".
+            </p>
+            <div class="proyectos-tools">
+              <img
+                class="proyectos-tools-icon"
+                src="/img/figma-original.svg"
+                alt=""
+              />
+            </div>
+            <a class="proyectos-card-btn" href="#">Ir al sitio</a>
+          </div>
+          <div class="card">
+            <figure>
+              <img class="proyectos-card-img" src="/img/CvIneractivo1920.png" />
+            </figure>
+
+            <p class="card-title">Curriculum interactivo</p>
+            <p class="card-description">
+              Diseño tipo mobile app con distintas tecnicas de prototipado y
+              animación.
+            </p>
+            <div class="proyectos-tools">
+              <img
+                class="proyectos-tools-icon"
+                src="/img/figma-original.svg"
+                alt=""
+              />
+            </div>
+            <a class="proyectos-card-btn" href="#">Ir al sitio</a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <p>Contactame:</p>
+        <div class="footer-redes">
+          <form action="">
+            <a
+              href="https://www.linkedin.com/in/juan-sincich-219310245/"
+              target="_blank"
+              ><img src="/img/LinkedIN.svg" class="redes-item" alt=""
+            /></a>
+            <a href="contactame.html" target="_blank"
+              ><img src="/img/Gmail.svg" class="redes-item" alt=""
+            /></a>
+            <a href="https://www.instagram.com/" target="_blank"
+              ><img src="/img/Instagram.svg" class="redes-item" alt=""
+            /></a>
+            <a href="https://github.com/JuanSincich" target="_blank"
+              ><img src="/img/Github.svg" class="redes-item" alt=""
+            /></a>
+            <a href="https://www.behance.net/juansincich" target="_blank"
+              ><img src="/img/Behance.svg" class="redes-item" alt=""
+            /></a>
+          </form>
+        </div>
+      </div>
+    </footer>
+    <script src="/script.js"></script>
   </body>
 </html>

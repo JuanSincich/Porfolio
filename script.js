@@ -46,7 +46,6 @@ panels.forEach((panel) => {
   });
 });
 /* ----------------go-top-button------------------ */
-
 const goTopButton = document.querySelector(".go-top-button");
 
 window.addEventListener("scroll", () => {
@@ -63,3 +62,25 @@ goTopButton.addEventListener("click", () => {
     behavior: "smooth",
   });
 });
+/* ----------------download cv------------------ */
+/* document.addEventListener("DOMContentLoaded", function () {
+  // Obtén una referencia al botón
+  const botonDescargar = document.getElementById("descargar-pdf");
+
+  // URL del archivo PDF que deseas descargar
+  const urlPdf = "file:///D:/FrontEgg/porfolio/img/CV-Dev-09-23.pdf"; // Reemplaza con la ruta de tu PDF
+
+  // Agrega un evento de clic al botón para descargar el PDF
+  botonDescargar.addEventListener("click", function () {
+    // Crea un elemento de enlace (hipervínculo) invisible
+    const enlace = document.createElement("a");
+    enlace.href = urlPdf;
+
+    // Especifica el atributo "download" para que el navegador descargue el archivo en lugar de navegar a él
+    enlace.setAttribute("download", "mi-archivo.pdf");
+
+    // Simula un clic en el enlace para iniciar la descarga
+    enlace.click();
+  });
+});
+ */
